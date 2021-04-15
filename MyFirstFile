@@ -1,16 +1,10 @@
-#pyramid3.py more succint
-#height
-h=9
-spaces = h -1
-hashes =2
+#mysecondfile.py
+#use "#" to turn a line of code off,uncomment a line
+#practice using "#" to turn a line on and off.
+#By default python’s print() function ends with a newline. 
+#Using end =" " will add an empty space at the end of the output. 
 
-
-for i in range(h):
-    
-
-    print(" " * spaces,"#"*hashes, end="")
-    spaces -=1
-    hashes +=2
-
-    print()
-    
+for i in range(4):
+    #print("?", end="")
+    print("?")
+print()
